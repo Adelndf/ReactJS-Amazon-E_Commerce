@@ -1,0 +1,27 @@
+.orders {
+  padding: 20px 80px;
+}
+.orders > h1 {
+  margin: 30px 0px;
+  font-size: 26px;
+}
+.orders > h3 {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.orders > h3 > span {
+  color: rgb(255, 65, 65);
+}
+@media only screen and (max-width: 768px) {
+  .orders {
+    padding: 10px;
+  }
+  .orders > h1 {
+    margin: 20px 0px;
+    font-size: 24px;
+    text-align: center;
+  }
+}

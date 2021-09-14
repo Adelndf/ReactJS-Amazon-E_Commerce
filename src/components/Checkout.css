@@ -1,0 +1,25 @@
+.checkout {
+  display: flex;
+  padding: 25px;
+}
+.checkout__ad {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.checkout__title {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkout__title {
+    font-size: 21px;
+  }
+  .checkout {
+    display: grid;
+    place-items: center;
+  }
+}
